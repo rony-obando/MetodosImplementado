@@ -1,0 +1,21 @@
+git config --global --list
+//comandos para eliminar usuarios globales:
+git config --global --unset-all user.name
+git config --global --unset-all user.email
+git config --global --unset-all user.password
+//comandos para introducir usuario:
+git config --local user.name rony-obando
+git config --local user.email ronyalvertoobando19092003@gmail.com
+git config --local user.password Obando(numero  de carlito)
+//comandos para subir proyecto:
+git init
+git remote add origin http/...
+git status
+git add *
+git status
+git commit -m "cualquier comentario"
+git push origin master
+//comados para borrar una direccion remota
+git remote rm origin
+git remote -v
+
